@@ -1,0 +1,28 @@
+.content {
+    justify-items: center;
+  }
+  .heading {
+    /* justify-content: center;
+    width: 50%; */
+    box-shadow: 2px 3px 3px 3px  ;
+  }
+
+  .box {
+    
+     box-shadow: 2px 2px 2px  black;
+  }
+  @media screen and (max-width:768px) {
+
+    .input {
+      width: 100%;
+      display: flex;
+      place-items: center;
+      justify-content: space-evenly;
+      margin-left: 2px;
+    
+    }
+    .content div {
+      width: 100%;
+      display: block;
+    }
+  }
